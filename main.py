@@ -35,10 +35,10 @@ for arquivo in diretorio.iterdir():
 
     destino = diretorio / pasta
 
-    # Cria a pasta somente quando necessário
+    
     destino.mkdir(exist_ok=True)
 
-    # Move o arquivo
+    
     shutil.move(str(arquivo), str(destino))
 
-print("Organização concluída com sucesso!")
+print("Organização concluída com sucesso!!!!!")
